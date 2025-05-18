@@ -1,0 +1,49 @@
+.card{
+    background-color: var(--branco-principal);
+    margin: 1em;
+    padding: 1em;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+}
+
+.card__titulo{
+    font-weight: 700;
+}
+
+.card__img{
+    width: 70%;
+}
+.card__container-textos{
+    width: 70%;
+}
+.container__titulo{
+    color: var(--titulo-card);
+    font-weight: 600;
+    font-size: 18px;
+}
+.container__texto{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+    position: relative;
+}
+.container__botoes{
+    position: absolute;
+}
+.botao_favorito{
+    display: none;
+}
+.favoritar{
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/icon/favorito.svg);
+    display: inline-block;
+}
+
+.botao_favorito:checked~.rotulo__favorito>.favoritar{
+    background-image: url(../img/icon/favorito\ vermelho.svg);
+}

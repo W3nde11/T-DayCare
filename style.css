@@ -1,0 +1,28 @@
+@import url(view/styles/resetCss.css);
+@import url(view/styles/header.css);
+@import url(view/styles/navegacao.css);
+@import url(view/styles/card.css);
+@import url(view/styles/apresentação.css);
+@import url(view/styles/topicos.css);
+@import url(view/styles/footer.css);
+
+:root{
+    --branco-principal: #FFFFFF;
+    --cor-fundo: #EBECEE;
+    --fundo-cabecalho: #7F55B1;
+    --titulo-card: #F49BAB;
+    --titulo-apresentacao: #9B7EBD;
+    --laranja: #EB9B00;
+    --texto-footer: #C0C0C0;
+    --fonte-principal: "Inter", sans-serif;
+    --fonte-segundaria: "Noto Sans JP", sans-serif;
+}
+
+body{
+    width: auto;
+    box-sizing: border-box;
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
+}
