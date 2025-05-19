@@ -6,10 +6,9 @@
 .topicos__lista{
     display: flex;
     flex-wrap: wrap;
-
 }
 .topicos__lista-item{
-    width: 36%;
+    width: 33%;
     display: flex;
     align-items: center;
     justify-content: space-between;
