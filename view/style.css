@@ -1,10 +1,10 @@
-@import url(view/styles/resetCss.css);
-@import url(view/styles/header.css);
-@import url(view/styles/navegacao.css);
-@import url(view/styles/card.css);
-@import url(view/styles/apresentação.css);
-@import url(view/styles/topicos.css);
-@import url(view/styles/footer.css);
+@import url(styles/resetCss.css);
+@import url(styles/header.css);
+@import url(styles/navegacao.css);
+@import url(styles/card.css);
+@import url(styles/apresentação.css);
+@import url(styles/topicos.css);
+@import url(styles/footer.css);
 
 :root{
     --branco-principal: #FFFFFF;
