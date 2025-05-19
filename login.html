@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="view/style.css">
+    <link rel="stylesheet" href="view/styles/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho__logo" src="view/img/imagem/logo sem fundo.png" alt="Logo myDaycare">
+    </header>
+    <section class="login">
+        <div class="login-container">
+            <h2 class="login__titulo">Login:</h2>
+            <input type="text" id="username" placeholder="Usuário">
+            <input type="password" id="password" placeholder="Senha">
+            <button onclick="login()">Entrar</button>
+            <div class="error" id="error-msg"></div>
+            <a class="nova__conta" href="#">Criar conta</a>
+        </div>
+    </section>
+    <section class="login__texto">
+        <h2 class="login__texto-titulo">
+            🌟 Bem-vindo ao <span class="titilo__negrito">myDaycare</span>
+        </h2>
+        <p class="slogan">
+            Cuidando com amor, conectando com tecnologia.
+        </p>
+        <p class="texto__conteudo">
+          No myDaycare, oferecemos um espaço seguro, acolhedor e divertido para o desenvolvimento das crianças enquanto seus responsáveis trabalham com tranquilidade. Através do nosso sistema inteligente, garantimos transparência, comunicação e participação ativa no dia a dia dos pequenos.  
+        </p>
+    </section>
+
+    <script>
+        function login() {
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+            const errorMsg = document.getElementById("error-msg");
+
+            if (username === "admin" && password === "1234") {
+                window.location.href = "view/html/index.html";
+            } else {
+                errorMsg.textContent = "Usuário ou senha inválidos.";
+            }
+        }
+  </script>
+</body>
+</html>
