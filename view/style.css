@@ -5,6 +5,8 @@
 @import url(styles/apresentação.css);
 @import url(styles/topicos.css);
 @import url(styles/footer.css);
+@import url(styles/notificacao.css);
+@import url(styles/perfil.css);
 
 :root{
     --branco-principal: #FFFFFF;

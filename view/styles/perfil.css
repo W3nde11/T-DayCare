@@ -1,0 +1,63 @@
+.navegacao__perfil{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5em;
+    background-color: var(--branco-principal);
+}
+.perfil__container{
+    margin: 1em;
+    text-align: center;
+}
+.perfil__usuario{
+    border-radius: 100%;
+    height: 10rem;
+    border: 3px solid var(--branco-principal);
+}
+.nome__usuario{
+    font-family: var(--fonte-segundaria);
+}
+.perfil__info{
+    margin: 1em;
+    background-color: var(--titulo-apresentacao);
+    padding: .5em;
+    border-radius: 10px;
+}
+.negrito{
+    font-weight: 600;
+    padding-right: .5em;
+}
+.perfil__lista-item{
+    display: flex;
+    align-items: center;
+    padding: .3em 0;
+}
+.status{
+    width: 15px;
+}
+.perfil__card{
+    background-color: var(--branco-principal);
+    margin: 1em;
+    padding: 1em;
+    border-radius: 10px;
+    display: flex;
+    font-family: var(--fonte-segundaria);
+}
+.card__img{
+    width: 8rem;
+    padding-right: .5em;
+}
+.titilo__card{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: .5em;
+}
+.card__lista{
+    font-size: 12px;
+}
+.perfil__link{
+    display: flex;
+    align-items: center;
+    background-color: var(--branco-principal);
+    padding: 1em;
+}
