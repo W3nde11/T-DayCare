@@ -1,0 +1,31 @@
+
+.titulo{
+    background-color: #1B0169;
+    color: white;
+    font-family: var(--fonte-segundaria);
+    font-size: 25px;
+    padding: 1em;
+}
+
+.swiper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.swiper-slide img {
+    width: 90%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+  order: -1; /* Move a paginação para o topo */
+  text-align: center;
+}
+
+
+

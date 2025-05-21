@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lição de casa</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../styles/licaocasa.css">
+    <link rel="stylesheet" href="../styles/horta.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+</head>
+<body>
+        <header class="cabecalho">
+        <img class="cabecalho__logo" src="../img/imagem/logo texto.png" alt="Logo myDaycare">
+        <div class="cabecalho__secoes">
+            <a  href="notificacao.html"><img src="../img/icon/notificacao.svg" alt="Notificação"></a>
+            <a class="cabecalho__link" href="#"><img src="../img/icon/chat.svg" alt="Atendimento"></a>
+        </div>
+    </header>
+    <nav class="navegacao__perfil">
+        <a href="principal.html"><img src="../img/icon/seta esquerda.svg" alt="Voltar"></a>
+
+        <input class="navegacao__pesquisa" type="search" id="pesquisar" placeholder="Pesquisar...">
+    </nav>
+    <figure>
+        <img class="apresentacao_horta" src="../img/imagem/licao.jpg" alt="ilustração de lição de casa">
+    </figure>
+    <h1 class="titulo">Projeto Reforço Com a Lição de Casa</h1>
+        <section class="horta__container">
+            <h2 class="card__titulo-horta">O que fazemos:</h2>
+            <p>São reservados momentos na rotina da creche para que as crianças realizem suas lições com o acompanhamento de um educador. Os profissionais auxiliam nas dúvidas, incentivando a criança a refletir e buscar soluções, sem entregar respostas prontas. Fornecemos um espaço organizado de forma que favoreça a concentração, a troca entre os colegas e o prazer de aprender. Todavia, Os responsáveis são informados sobre o andamento das atividades e incentivados a continuar o acompanhamento em casa.</p>
+        </section>
+                <!-- Container principal do carrossel -->
+        <div class="swiper">
+
+            <!-- Elemento da paginação, posicionado acima do carrossel -->
+            <div class="swiper-pagination"></div>
+
+            <!-- Wrapper que contém todos os slides do carrossel -->
+            <div class="swiper-wrapper">
+
+                <!-- Cada slide do carrossel com uma imagem -->
+                <div class="swiper-slide">
+                    <img class="swiper__img" src="../img/imagem/licao1.jpg" alt="Fotos de crianças fazendo Lição">
+                </div>
+
+                <div class="swiper-slide">
+                    <img class="swiper__img" src="../img/imagem/licao2.jpg" alt="Fotos de crianças fazendo Lição">
+                </div>
+
+                <div class="swiper-slide">
+                    <img class="swiper__img" src="../img/imagem/licao3.jpg" alt="Fotos de crianças fazendo Lição">
+                </div>
+
+            </div>
+        </div>
+                <section class="horta__container">
+            <h2 class="card__titulo-horta">Impactos do Projeto:</h2>
+            <p>A regularidade e o apoio qualificado contribuem para avanços significativos na aprendizagem. Sentindo-se apoiadas, elas ganham segurança para enfrentar novos desafios escolares. O acompanhamento próximo ajuda a identificar dificuldades precocemente e propor intervenções. A criança entende que a escola é um espaço de apoio contínuo, além da sala de aula.</p>
+        </section>
+        <figure class="area__imagem">
+            <img src="../img/imagem/book.svg">
+        </figure> 
+
+    <footer class="rodape">
+        <div class="rodape__container">
+            <h2 class="rodape__titulo">47.785.527/0001-32 - RECREAÇÃO INFANTIL BEM VIVER</h2>
+            <p class="rodape__texto">AV PREFEITO FRANCISCO RODRIGUES FILHO, 279, Centro, POA-SP - 08.561-200</p>
+        </div>
+        <a class="rodape__link" href="#"><img class="contato__icon" src="../img/icon/contato.svg" alt="contatos"></a>
+    </footer>
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+        // Inicializa o carrossel Swiper
+        const swiper = new Swiper('.swiper', {
+            // Espaçamento entre os slides
+            spaceBetween: 1,
+            // Número de slides visíveis por vez
+            slidesPerView: 1,
+            // Configuração da paginação
+            pagination: {
+                el: '.swiper-pagination', // Elemento onde a paginação será renderizada
+                type: 'bullets', // Tipo de paginação: pontos
+            },
+        });
+    </script>
+</body>
+</html>

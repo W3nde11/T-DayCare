@@ -1,5 +1,5 @@
 .apresentacao__titulo{
-    width: 100%;
+    width: auto;
     background-color: var(--branco-principal);
     padding: 1em;
     color: var(--laranja);
