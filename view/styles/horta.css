@@ -1,0 +1,54 @@
+.apresentacao_horta{
+    width: 92%;
+    margin: 1em;
+    border-radius: 10px;
+}
+.Titulo{
+    background-color: #3F7652;
+    color: white;
+    font-family: var(--fonte-segundaria);
+    font-size: 30px;
+    padding: .5em;
+}
+.horta__container{
+    background-color: var(--branco-principal);
+    margin: 1em;
+    padding: .5em;
+    border-radius: 10px;
+}
+.card__titulo-horta{
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 1em;
+}
+.horta__lista-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.horta__item-titulo{
+    font-weight: 500;
+    width: 50%;
+}
+.horta__item-texto{
+    width: 50%;
+    color: var(--branco-principal)
+}
+.cor-verde{
+    background-color: #87CD90;
+}
+.titulo_verde{
+    color: #3F7652;
+}
+.horta__imagem{
+    width: 100%;
+}
+.area__imagem{
+    text-align: center;
+}
+.area__imagem-composta{
+    display: flex;
+}
+.imagem-composta{
+    width: 50%;
+}
