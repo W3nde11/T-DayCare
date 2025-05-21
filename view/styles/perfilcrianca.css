@@ -1,0 +1,27 @@
+.crianca__perfil{
+    margin: 1em;
+    padding: 1em;
+    background-color: var(--branco-principal);
+    border-radius: 10px;
+}
+.apresentacao__crianca{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.perfil__img{
+    width: 10rem;
+}
+.apresentacao__info{
+    margin-left: 1em;
+}
+
+.crianca__titulo{
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+.item__texto{
+    font-size: 12px;
+    margin-bottom: 1em;
+}
