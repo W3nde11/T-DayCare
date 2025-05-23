@@ -6,6 +6,7 @@
 .topicos__lista{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .topicos__lista-item{
     width: 33%;
@@ -14,7 +15,7 @@
     justify-content: space-between;
     background-color: var(--branco-principal);
     margin: .7em;
-    padding: 2em 1em;
+    padding: 1em;
     border-radius: 15px;
     text-align: right;
 }
