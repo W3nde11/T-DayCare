@@ -10,45 +10,47 @@
 <body>
     <header class="cabecalho">
         <img class="cabecalho__logo" src="../img/imagem/logo texto.png" alt="Logo myDaycare">
-        <div class="cabecalho__secoes">
-            <a  href="notificacao.html"><img src="../img/icon/notificacao.svg" alt="Notificação"></a>
-            <a class="cabecalho__link" href="#"><img src="../img/icon/chat.svg" alt="Atendimento"></a>
-        </div>
     </header>
-    <nav class="navegacao__perfil">
-        <a href="principal.html"><img src="../img/icon/seta esquerda.svg" alt="Voltar"></a>
 
-        <input class="navegacao__pesquisa" type="search" id="pesquisar" placeholder="Pesquisar...">
+    <nav class="navegacao">
+        <a class="navegacao__link navegacao__Icone" href="principal.html"><img class="navegacao__icone" src="../img/icon/seta esquerda.svg" alt="voltar"></a> 
 
-        <a href="#"><img src="../img/icon/editar.svg" alt="Voltar"></a>
+        <input class="navegacao__pesquisa " type="search" id="pesquisar" placeholder="Pesquisar...">
+
+        <a  href="notificacao.html"><img class="navegacao__icone" src="../img/icon/notificacao.svg" alt="Notificação"></a>
+
+        <a class="cabecalho__link" href="#"><img  class=" navegacao__icone" src="../img/icon/editar.svg" alt="editar"></a>
     </nav>
-    <section class="crianca__perfil">
+    
+    <section class="sectionBloco">
+        <h1 class="titulo__perfil">
+            Oi,<br/> 
+            Meu nome é <span class="pTitulo destaque">Gabriel Ferraz</span>.
+        </h1>
         <div class="apresentacao__crianca">
             <img src="../img/imagem/crianca.jpg" alt="Aluno" class="perfil__img">
             <div class="apresentacao__info">
-                <h1 class="crianca__titulo">
-                    Oi,<br/> Meu nome é Gabriel Ferraz.
-                </h1>
+
                 <ul class="info__crianca">
                     <li class="crianca__lista-item">
-                        <span class="negrito">Data de nascimento:</span>
+                        <span class="negrito ">Data de nascimento:</span>
                         <p class="item__texto">21 de maio de 2019</p>
-                    </li><hr/>
+                    </li>
                     <li class="crianca__lista-item">
-                        <span class="negrito">Sexo</span>
+                        <span class="negrito">Sexo:</span>
                         <p class="item__texto">Masculino</p>
-                    </li><hr/>
+                    </li>
                     <li class="crianca__lista-item">
-                        <span class="negrito">Responsável</span>
+                        <span class="negrito">Responsável:</span>
                         <p class="item__texto">Amanda Ferraz</p>
                     </li>
                 </ul>
             </div>
         </div>
         <div class="info__complementares">
-            <h2 class="crianca__titulo">
+            <h2 class="pSub-titulo maiuscula">
                 Informações Adicionais:
-            </h2>
+            </h2><hr/>
             <ul class="complementares__lista">
                 <li class="complementares__lista-item">
                     <span class="negrito">Hob's</span>
@@ -61,11 +63,11 @@
                 <li class="complementares__lista-item">
                     <span class="negrito">Observações:</span>
                     <p class="item__texto">Gosta de dormir a tarde, não come alguns legumes, hiperativo...</p>
-                </li><hr/>
+                </li>
             </ul>
-            <h2 class="crianca__titulo">
+            <h2 class="pSub-titulo maiuscula">
                 Histórico de Saúde
-            </h2>
+            </h2><hr/>
             <ul class="complementares__lista">
                 <li class="complementares__lista-item">
                     <span class="negrito">Doenças:</span>
@@ -73,7 +75,7 @@
                 </li>
                 <li class="complementares__lista-item">
                     <span class="negrito">Alergias:</span>
-                    <p class="item__texto">latex</p>
+                    <p class="item__texto">n/d</p>
                 </li>
                 <li class="complementares__lista-item">
                     <span class="negrito">Medicamento em uso</span>
@@ -81,23 +83,27 @@
                 </li>
             </ul>
     </section>
-    <section class="crianca__perfil">
-                    <h2 class="crianca__titulo">Dados do Responsável</h2>
+    <section class="sectionBloco">
+            <h2 class="pSub-titulo maiuscula">Dados do Responsável</h2>
             <ul class="complementares__lista">
                 <li class="complementares__lista-item">
                     <span class="negrito">Nome:</span>
                     <p class="item__texto">Amanda Ferraz</p>
                 </li>
                 <li class="complementares__lista-item">
-                    <span class="negrito">Grau de parentesco</span>
+                    <span class="negrito">Grau de parentesco:</span>
                     <p class="item__texto">Mãe</p>
+                </li>
+                <li class="complementares__lista-item">
+                    <span class="negrito">Endereço:</span>
+                    <p class="item__texto">Rua A, 123, Centro, Poá-SP - 08123-456</p>
                 </li>
                 <li class="complementares__lista-item">
                     <span class="negrito">Telefone:</span>
                     <p class="item__texto">(11) 91234-5678</p>
                 </li>
                 <li class="complementares__lista-item">
-                    <span class="negrito">E-mail</span>
+                    <span class="negrito">E-mail:</span>
                     <p class="item__texto">Amanda_Ferraz@gmail.com</p>
                 </li>
             </ul>

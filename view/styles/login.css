@@ -1,17 +1,18 @@
 :root{
-    --fonte--login: "Noto Sans JP", sans-serif;
-    --fundo-segundario: #D7D4E9;
+    --fundoSegundario: #D7D4E9;
 }
 
-header, section{
-    font-family: var(--fonte--login);
+.cetralizar{
+    justify-content: center;
 }
+
 .login{
     padding: 1em;
+    font-family: var(--fonteSegundaria);
 }
 
 .login-container {
-    background-color: var(--fundo-segundario);
+    background-color: var(--fundoSegundario);
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -51,23 +52,26 @@ button:hover {
     text-align: center;
     margin-top: 10px;
 }
+
 .nova__conta{
     color: #145db2;
-    padding-top: 1em;
+    padding-top: 16px;
 }
 
 .login__texto{
-    margin: 1em;
+    margin: 16px;
 }
+
 .login__texto-titulo, .titilo__negrito, .slogan, .texto__conteudo{
-    color: var(--titulo-apresentacao);
-    padding-bottom: 1em;
+    color: var(--fundoTopico);
+    padding-bottom: 16px;
     text-align: center;
 }
+
 .login__texto-titulo{
     font-size: 24px;
-
 }
+
 .titilo__negrito{
     font-size: 24px;
     font-weight: 700;

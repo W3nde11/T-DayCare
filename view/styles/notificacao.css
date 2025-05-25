@@ -1,16 +1,29 @@
+.cabecalho__notificacao{
+    justify-content: space-between;
+}
+
+.navegacao__notificacao{
+    background-color: var(--sectionBloco);
+    display: flex;
+    align-items: center;
+}
+
 .titulo_notificacao{
     text-align: center;
+    width: 80%;
 }
 
 .lista__notificacoes{
     margin: 1em;
 }
+
 .lista__item{
     margin: .5em;
     background-color: var(--texto-footer);
     padding: 1em;
     border-radius: 10px;
 }
+
 .item__titilo{
     font-weight: 600;
     padding-bottom: .3em;

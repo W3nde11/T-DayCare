@@ -1,3 +1,7 @@
+.header__container{
+    justify-content: space-between;
+}
+
 .perfil__container{
     margin: 16px;
     text-align: center;
@@ -24,13 +28,13 @@
 
 .perfil__status{
     display: flex;
-    flex-direction: column;
 }
 
 .status{
     width: 15px;
     margin: 0 8px;
 }
+
 
 .card{
     background-color: var(--sectionBloco);
@@ -58,5 +62,5 @@
     display: flex;
     align-items: center;
     background-color: var(--sectionBloco);
-    padding: 1em;
+    padding: 8px;
 }

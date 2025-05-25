@@ -1,27 +1,29 @@
-.crianca__perfil{
-    margin: 1em;
-    padding: 1em;
-    background-color: var(--branco-principal);
-    border-radius: 10px;
+.destaque{
+ color: var(--tituloApresentacao)
 }
+.titulo__perfil{
+    font-size: 18px;
+    padding-bottom: 16px;
+}
+
 .apresentacao__crianca{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1em;
+    margin-bottom: 16px;
 }
 
 .perfil__img{
-    width: 10rem;
+    width: 160px;
 }
-.apresentacao__info{
-    margin-left: 1em;
+.maiuscula{
+    text-transform: uppercase;
 }
 
-.crianca__titulo{
-    font-weight: 600;
-    margin-bottom: 1em;
+.apresentacao__info{
+    margin-left: 16px;
 }
+
 .item__texto{
     font-size: 12px;
-    margin-bottom: 1em;
+    margin-bottom: 16px;
 }

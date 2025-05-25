@@ -1,10 +1,10 @@
 
 .titulo{
-    background-color: #1B0169;
-    color: white;
-    font-family: var(--fonte-segundaria);
-    font-size: 25px;
-    padding: 1em;
+  background-color: #1B0169;
+  color: white;
+  font-family: var(--fonte-segundaria);
+  font-size: 25px;
+  padding: 1em;
 }
 
 .swiper {
@@ -25,6 +25,10 @@
 .swiper-pagination {
   order: -1; /* Move a paginação para o topo */
   text-align: center;
+}
+
+.cor__azul{
+  background-color: #86BBBD;
 }
 
 

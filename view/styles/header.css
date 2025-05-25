@@ -3,9 +3,8 @@
     display: flex;
     padding: 1em;
     align-items: center;
-    position: relative;
-    width: auto;
 }
+
 .cabecalho__logo{
     width: 128px;
 }

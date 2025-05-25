@@ -38,11 +38,13 @@ body{
 .pTitulo{
     font-size: 1.2rem;
     font-weight: 600;
+    padding-bottom: 16px;
 }
 
 .pSub-titulo{
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
+    padding-bottom: 16px;
 }
 
 .sectionBloco{
