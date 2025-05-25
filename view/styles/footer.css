@@ -1,17 +1,17 @@
 .rodape{
-    padding: 1em;
+    padding: 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .rodape__container{
-    color: var(--texto-footer);
-    font-size: 6px;
     width: 43%;
+    font-size: 6px;
 }
 .rodape__titulo{
     font-weight: 700;
-    padding-bottom: 1em;
+    padding-bottom: 16px;
 }
 .contato__icon{
     width: 24px;

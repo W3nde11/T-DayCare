@@ -1,27 +1,27 @@
 .topicos{
-    background-color: var(--titulo-apresentacao);
-    text-align: center;
-    padding: 1em;
+    background-color: var(--fundoTopico);
+    padding: 8px;
 }
+
 .topicos__lista{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
+
 .topicos__lista-item{
-    width: 33%;
+    width: 122px;
+}
+
+.topicos__links{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--branco-principal);
-    margin: .7em;
-    padding: 1em;
-    border-radius: 15px;
-    text-align: right;
 }
+
 .topicos__icon{
-    width: 40px;
+    width: 30px;
 }
-.topicos__links{
-    font-size: 18px;
+
+.topicos__texto{
+    text-align: right;
 }

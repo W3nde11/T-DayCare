@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>myDaycare</title>
+    <title>TDaycare</title>
     <link rel="stylesheet" href="../../style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,59 +16,70 @@
     </header>
 
     <nav class="navegacao">
-        <a class="navegacao__link" href="perfil.html"><img class="" src="../img/icon/perfil.svg" alt="Perfil"></a>
-        <div class="navegacao__container">
-            <input class="navegacao__pesquisa" type="search" id="pesquisar" placeholder="Pesquisar...">
-            <a  href="notificacao.html"><img src="../img/icon/notificacao.svg" alt="Notificação"></a>
-            <a class="cabecalho__link" href="#"><img src="../img/icon/chat.svg" alt="Atendimento"></a>
-        </div>
+        <a class="navegacao__link navegacao__Icone" href="perfil.html"><img class="navegacao__icone" src="../img/icon/perfil.svg" alt="Perfil"></a>       
+            <input class="navegacao__pesquisa " type="search" id="pesquisar" placeholder="Pesquisar...">
+            <a  href="notificacao.html"><img class="navegacao__icone" src="../img/icon/notificacao.svg" alt="Notificação"></a>
+            <a class="cabecalho__link" href="#"><img  class=" navegacao__icone" src="../img/icon/chat.svg" alt="Atendimento"></a>
     </nav>
 
-    <section class="card">
-        <h2 class="card__titulo">Próximos Eventos:</h2>
-
+    <section id="card" class="sectionBloco pLarguraBloco">
+        <h2 class="pTitulo">Próximos Eventos:</h2>
         <div class="card__container">
-            <img class="card__img" src="../img/imagem/images.jpg" alt="imagem ilustrativa">
-            <div class="card__container-textos">
-            <h2 class="container__titulo">23 de abril</h2>
-            <hr/>
-            <p class="container__texto">Passeio ao parque</p>
+            <img class="card__img" src="../img/imagem/junina.jpg" alt="imagem ilustrativa">
 
-            <div class="container__botoes">
-                <input class="botao_favorito" type="checkbox" id="favorito">
-                <label class="rotulo__favorito" for="favorito"><span class="favoritar"></span></label>
-                <a href="#"><img src="../img/icon/visualizar.svg" alt="Visualizar"></a>
-            </div>  
+            <div class="card__container-textos">
+                <h2 class="container__data">06 de julho</h2>
+                <hr/>
+                <p class="container__texto">Festa junina</p>
+
+                <div class="container__botoes">
+                    <input class="botao_favorito" type="checkbox" id="favorito">
+                    <label class="rotulo__favorito" for="favorito"><span class="favoritar"></span></label>
+                    <a href="atividadesextras.html"><img src="../img/icon/redirecionar.svg" alt="Visualizar"></a>
+                </div>  
+            </div>
         </div>     
     </section>
+
     <section class="apresentacao">
         <h2 class="apresentacao__titulo">Nossos Projetos:</h2>
         <div class="apresentacao__projetos">
-            <a class="projetos__link horta" href="projetohorta.html">Projeto Horta</a>
-            <a class="projetos__link licao" href="projetolicaocasa.html">Reforço Lição de Casa</a>
+            <a class="projetos__link" href="projetohorta.html">
+                <img class="img__apresentacao" src="../img/imagem/horta.svg" > 
+                <p>Horta</p>  
+            </a>
+            <a class="projetos__link" href="projetolicaocasa.html">
+                <img class="img__apresentacao" src="../img/imagem/caderno.svg">
+                <p>Reforço</p>
+            </a>
         </div>
     </section>
 
     <section class="topicos">
         <ul class="topicos__lista">
-            <li class="topicos__lista-item">
-                <img class="topicos__icon" src="../img/icon/aluno.svg" alt="Perfil aluno" >
-
-                <a href="perfilcrianca.html" class="topicos__links">Meu Pequeno</a>
+            <li class="topicos__lista-item sectionBloco">
+                <a href="perfilcrianca.html" class="topicos__links">
+                    <img class="topicos__icon" src="../img/icon/aluno.svg" alt="Perfil aluno"> 
+                    <p class="topicos__texto">Meu Pequeno</p>
+                </a>
             </li>
-            <li class="topicos__lista-item">
-                <img class="topicos__icon" src="../img/icon/atividades.svg" alt="Atividades Extras">
-
-                <a href="atividadesextras.html" class="topicos__links">Atividades Extras</a></li>
-            <li class="topicos__lista-item">
-                <img src="../img/icon/feed.svg" alt="feed" class="topicos__icon">
-                
-                <a href="#" class="topicos__links">Feed</a>
+            <li class="topicos__lista-item sectionBloco">
+                <a href="atividadesextras.html" class="topicos__links">
+                    <img class="topicos__icon" src="../img/icon/atividades.svg" alt="Atividades Extras">
+                    <p class="topicos__texto">Atividades Extras</p>   
+                </a>
             </li>
-            <li class="topicos__lista-item">
-                <img class="topicos__icon" src="../img/icon/calendario.svg" alt="agenda">
-                
-                <a href="#">Diário</a>
+            <li class="topicos__lista-item sectionBloco">
+                <a href="#" class="topicos__links">
+                    <img class="topicos__icon" src="../img/icon/feed.svg" alt="feed" class="topicos__icon">       
+                    <p class="topicos__texto">Feed</p>
+                </a>
+            </li>
+            <li class="topicos__lista-item sectionBloco">               
+                <a href="#" class="topicos__links">
+                    <img class="topicos__icon" src="../img/icon/calendario.svg" alt="agenda">
+                    <p class="topicos__texto">Diário</p>
+                </a>
             </li>
         </ul>
     </section>

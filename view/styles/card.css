@@ -1,44 +1,36 @@
-.card{
-    background-color: var(--branco-principal);
-    margin: 1em;
-    padding: 1em;
-    border-radius: 17px;
+.card__container, .container__texto{
+    display: flex;
 }
-
-.card__titulo{
-    font-weight: 700;
+.card__img{
+    height: 115px;
 }
 
 .card__container{
-    display: flex;
+    padding-top: 8px;
     align-items: center;
+    justify-content: space-evenly;
 }
 
-.card__img{
-    width: 70%;
-}
-.card__container-textos{
-    width: 70%;
-}
-.container__titulo{
-    color: var(--titulo-card);
-    font-weight: 600;
-    font-size: 18px;
-    padding-top: 1em;
-}
 .container__texto{
     font-size: 18px;
-    display: flex;
     flex-direction: column;
-    padding-bottom: 1em;
-    position: relative;
+    padding-bottom: 16px;
 }
+
+.container__data{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--textoData);
+}
+
 .container__botoes{
     text-align: center;
 }
+
 .botao_favorito{
     display: none;
 }
+
 .favoritar{
     width: 24px;
     height: 24px;

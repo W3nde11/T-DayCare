@@ -9,22 +9,53 @@
 @import url(view/styles/perfil.css);
 
 :root{
-    --branco-principal: #FFFFFF;
-    --cor-fundo: #EBECEE;
-    --fundo-cabecalho: #7F55B1;
-    --titulo-card: #F49BAB;
-    --titulo-apresentacao: #9B7EBD;
-    --laranja: #EB9B00;
-    --texto-footer: #C0C0C0;
-    --fonte-principal: "Inter", sans-serif;
-    --fonte-segundaria: "Noto Sans JP", sans-serif;
+    --fundoBody: #EBECEE;
+    --sectionBloco: #FFFFFF;
+    --fundoCabecalho: #69247C;
+    --textoData: #660000 ;
+    --fundoApresentacao:   #F9E6CF;
+    --tituloApresentacao: #EB9B00;
+    --fundoTopico: #B49FCC;
+    --textoRodape: #C0C0C0;
+
+    --fontePrincipal: "Inter", sans-serif;
+    --fonteSegundaria: "Noto Sans JP", sans-serif;
 }
 
 body{
-    width: auto;
+    width: 100vw;
     box-sizing: border-box;
-    background-color: var(--cor-fundo);
-    font-family: var(--fonte-principal);
+    background-color: var(--fundoBody);
+    font-family: var(--fontePrincipal);
     font-size: 1rem;
     font-weight: 400;
+}
+
+.pIcone{
+    width: 24px;
+}
+
+.pTitulo{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.pSub-titulo{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.sectionBloco{
+    background-color: var(--sectionBloco);
+    margin: 16px;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.pLarguraBloco{
+    width: 20.5pc;
+}
+
+.negrito{
+    font-weight: 600;
 }

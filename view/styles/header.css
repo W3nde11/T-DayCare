@@ -1,11 +1,11 @@
 .cabecalho{
-    background-color: var(--fundo-cabecalho);
+    background-color: var(--fundoCabecalho);
     display: flex;
     padding: 1em;
-    justify-content: space-between;
     align-items: center;
     position: relative;
+    width: auto;
 }
 .cabecalho__logo{
-    width: 8rem;
+    width: 128px;
 }

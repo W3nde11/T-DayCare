@@ -8,35 +8,40 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="cabecalho">
-        <img class="cabecalho__logo" src="../img/imagem/logo texto.png" alt="Logo myDaycare">
+    <header class="cabecalho header__container">
+        <img class="cabecalho__logo" src="../img/imagem/logo texto.png" alt="Logo TDaycare">
         <div class="cabecalho__secoes">
-            <a  href="notificacao.html"><img src="../img/icon/notificacao.svg" alt="Notificação"></a>
-            <a class="cabecalho__link" href="#"><img src="../img/icon/chat.svg" alt="Atendimento"></a>
+            <a class="navegacao__icone" href="../../Index.html"><img src="../img/icon/sair.svg" alt="Atendimento"></a>
         </div>
     </header>
-    <nav class="navegacao__perfil">
-        <a href="principal.html"><img src="../img/icon/seta esquerda.svg" alt="Voltar"></a>
+    
+    <nav class="navegacao">
+        <a class="navegacao__link navegacao__Icone" href="principal.html"><img class="navegacao__icone" src="../img/icon/seta esquerda.svg" alt="voltar"></a> 
 
-        <input class="navegacao__pesquisa" type="search" id="pesquisar" placeholder="Pesquisar...">
+        <input class="navegacao__pesquisa " type="search" id="pesquisar" placeholder="Pesquisar...">
 
-        <a href="#"><img src="../img/icon/configuracoes.svg" alt="Configurações"></a>
+        <a  href="notificacao.html"><img class="navegacao__icone" src="../img/icon/notificacao.svg" alt="Notificação"></a>
+
+        <a class="cabecalho__link" href="#"><img  class=" navegacao__icone" src="../img/icon/configuracoes.svg" alt="Configuração"></a>
     </nav>
+
     <div class="perfil__container">
         <img class="perfil__usuario" src="../img/imagem/usuario.jpg" alt="Usuário">
         <h1 class="nome__usuario">Amanda Ferraz</h1>
     </div>
-    <section class="perfil__info">
+
+    <section class=" perfil__info">
         <ul>
-            <li class="perfil__lista-item"><span class="negrito">Responsável:</span> Pelo aluno Gabriel</li><hr/>
+            <li class="perfil__lista-item"><span class="negrito">Responsável pelo(a):</span> Gabriel</li><hr/>
             <li class="perfil__lista-item"><span class="negrito">Idade:</span> 36 anos</li><hr/>
-            <li class="perfil__lista-item"><span class="negrito">Status:</span> <img class="status" src="../img/icon/status.svg" alt="Status disponível"> Diponivel</li>
+            <li class="perfil__lista-item"><span class="negrito">Status:</span><div class="perfil__status"><img class="status" src="../img/icon/status.svg" alt="Status disponível"><p>Diponivel</p></div> </li>
         </ul>
     </section>
-    <section class="perfil__card">  
-        <img src="../img/imagem/crianca.jpg" alt="" class="card__img">
+
+    <section class="card"> 
+        <h2 class="pTitulo">Gabriel Ferraz</h2>
         <div class="card__container">
-            <h2 class="titilo__card">Gabriel Ferraz</h2>
+            <img src="../img/imagem/crianca.jpg" alt="" class="card__img">
             <ul class="card__lista">
                 <li class="card__lista-item"><span class="negrito">Idade:</span>5 anos</li><hr/>
                 <li class="card__lista-item"><span class="negrito">Cuidados especiais:</span>Autista</li><hr/>
