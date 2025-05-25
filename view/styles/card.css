@@ -3,13 +3,17 @@
     margin: 1em;
     padding: 1em;
     border-radius: 17px;
-    display: flex;
-    align-items: center;
 }
 
 .card__titulo{
     font-weight: 700;
 }
+
+.card__container{
+    display: flex;
+    align-items: center;
+}
+
 .card__img{
     width: 70%;
 }
@@ -20,6 +24,7 @@
     color: var(--titulo-card);
     font-weight: 600;
     font-size: 18px;
+    padding-top: 1em;
 }
 .container__texto{
     font-size: 18px;
@@ -29,7 +34,7 @@
     position: relative;
 }
 .container__botoes{
-    position: absolute;
+    text-align: center;
 }
 .botao_favorito{
     display: none;
