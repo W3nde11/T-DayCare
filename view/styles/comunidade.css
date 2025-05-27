@@ -1,0 +1,25 @@
+.container__perfil{
+    display: flex;
+    align-items: center;
+    padding-bottom: 8px;
+}
+.foto__usuario{
+    width: 24px;
+    border-radius: 100%;
+}
+.nome__usuario{
+    font-weight: 600;
+    margin-left: 8px;
+}
+.publicacao{
+    width: 100%;
+    border-radius: 10px;
+}
+.legenda{
+    font-family: var(--fonteSegundaria);
+    margin: 8px 0;
+}
+.botoes{
+    display: flex;
+    justify-content: space-between;
+}

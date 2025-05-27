@@ -7,6 +7,7 @@
 @import url(view/styles/footer.css);
 @import url(view/styles/notificacao.css);
 @import url(view/styles/perfil.css);
+@import url(view/styles/comunidade.css);
 
 :root{
     --fundoBody: #EBECEE;
