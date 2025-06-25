@@ -9,7 +9,7 @@
 .login{
     padding: 1em;
     font-family: var(--fonteSegundaria);
-    width: 30pc;
+    width: auto;
     margin: 0 auto;
 }
 
@@ -61,8 +61,8 @@ button:hover {
 }
 
 .login__texto{
-    width: 30pc;
-    margin: 0 auto;
+    width: auto;
+    margin: 0 1em;
 }
 
 .login__texto-titulo, .titilo__negrito, .slogan, .texto__conteudo{
