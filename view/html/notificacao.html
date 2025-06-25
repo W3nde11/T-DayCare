@@ -12,7 +12,8 @@
     </header>
 
     <nav class="navegacao__notificacao">
-        <a class="navegacao__Icone" href="principal.html"><img class="navegacao__icone" src="../img/icon/seta esquerda.svg" alt="Perfil"></a>       
+        <button class="voltar" onclick="voltar()"><img class="navegacao__icone" src="../img/icon/seta esquerda.svg" alt="Perfil"></button>
+     
         <p class="pTitulo titulo_notificacao">Notificação</p>
     </nav>
 
@@ -38,5 +39,10 @@
         <a href="#" class="lista__link">Assunto</a>
     </li>
    </ul>
+   <script>
+    function voltar(){
+        history.back();
+    }
+   </script>
 </body>
 </html>

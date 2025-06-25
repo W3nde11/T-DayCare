@@ -54,7 +54,7 @@
 
   <section>
     <h2>📞 Contatos</h2>
-    <p><strong>Resultado:</strong> https://tdaycare.netlify.app/</p>
+    <p><strong>Resultado:</strong> https://tdaycare.netlify.app/ <br> Usuário: admin Senha: 12345678 </p>
     <p><strong>Parceira:</strong> Talita Alves</p>
     <p><strong>Empresa:</strong> Recreação Infantil Bem Viver</p>
     <p><strong>Telefone:</strong> (11) 97836-5378</p>
